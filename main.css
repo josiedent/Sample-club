@@ -1,5 +1,5 @@
 
-.jumbotron {
+.sale {
   padding-top: 90px;
   min-height: 700px;
   margin-bottom: 0;
@@ -8,8 +8,9 @@
   background-attachment: fixed;
 }
 
-.jumbotron h1 {
+.sale h1 {
   font-family: 'Roboto Slab', serif;
+  font-size: 70px;
   color: black;
   margin-bottom: 1em;
   text-align: center;
@@ -17,20 +18,20 @@
 
 
 #Current-sales {
-  background-color: rgba(32, 35, 41, 0.9);
-  color: #dde;
+  background-color: rgba(217, 217, 217, 0.9);
+  color: black;
   padding-bottom: 40px;
 }
 
-.jumbotron .form-group {
+.sale .form-group {
   line-height: 4em;
   text-align: center;
 }
 
-.jumbotron label {
+.sale label {
   color: black;
 }
-.jumbotron img {
+.sale img {
   margin-top: 50px;
 }
 h2 {
@@ -38,7 +39,7 @@ h2 {
 }
 
 .navbar-inverse {
-  background-color: rgba(32, 35, 41,0.8);
+  background-color: rgba(217, 217, 217, 0.9);
 }
 
 .form-group input[name='email'] {
@@ -51,10 +52,14 @@ h2 {
   width: 50%;
 }
 
+.btn-current {
+  background-color: #ffb3d9;
+  border-color: #ffb3d9;
+  color: white;
+}
 
 #social-buttons {
   margin-top: 80px;
-  background-color: rgba(32, 35, 41, 0.9);
   padding-bottom: 40px;
 }
 
